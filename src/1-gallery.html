@@ -12,25 +12,16 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header class="header">
+    <main>
       <div class="container">
-        <nav class="nav">
-          <ul class="nav-list">
-            <li class="nav-item">
-              <a class="nav-link {=$highlight-act}" href="./1-gallery.html"
-                >Gallery</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link {=$highlight-curr}" href="./2-form.html"
-                >Form</a
-              >
-            </li>
-          </ul>
-        </nav>
+        <load src="./partials/back-link.html" />
       </div>
-    </header>
-
-    <main></main>
+      <ul class="gallery"></ul>
+      <script
+        async
+        src="https://cdn.jsdelivr.net/npm/basiclightbox@5.0.4/dist/basicLightbox.min.js"
+      ></script>
+      <script src="./js/1-gallery.js" type="module"></script>
+    </main>
   </body>
 </html>
